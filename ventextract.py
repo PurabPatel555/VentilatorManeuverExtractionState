@@ -36,7 +36,8 @@ while True:
     id = id+1002
   else:
     id = id+1
-
+plt.show()
+    
 run = np.genfromtxt(RAW_DATA, dtype=str, deletechars="b'")
 run = np.transpose(run)
 
